@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    label{
+        display: block;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+<body>
+    <form id="form">
+        <label for="valueCep">CEP</label>
+        <input type="text" placeholder="Digite seu CEP" id="valueCep">
+        <input type="submit" value="Buscar">
+    </form>
+    <div class="result">
+        <p id="cep"></p>
+        <p id="state"></p>
+        <p id="city"></p>
+        <p id="neighborhood"></p>
+        <p id="street"></p>
+        <p id="service"></p>
+    </div>
+    <div>
+        <h2>Preço do Bitcoin</h2>
+        <p id="btcP"></p>
+    </div>
+
+    <div>
+        <img id="img" src="" alt="">
+        <p id="piada"></p>
+        <button id="proxima">Proxima</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
