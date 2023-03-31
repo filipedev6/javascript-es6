@@ -19,20 +19,24 @@
 //     console.log('acabou');
 // })
 
-const login = new Promise((resolve) => {
-    setTimeout(() => {
-        resolve('Logou na página')
-    }, 5000)
-});
+// const login = new Promise((resolve) => {
+//     setTimeout(() => {
+//         resolve('Logou na página')
+//     }, 5000)
+// });
 
-const dados = new Promise((resolve) => {
-    setTimeout(() => {
-        resolve('Dados Carregados')
-    }, 5000)
-})
+// const dados = new Promise((resolve) => {
+//     setTimeout(() => {
+//         resolve('Dados Carregados')
+//     }, 5000)
+// })
 
-const tudoCarregado = Promise.all([login, dados]);
+// const tudoCarregado = Promise.all([login, dados]);
 
-tudoCarregado.then((value) => {
-    console.log(value)
+// tudoCarregado.then((value) => {
+//     console.log(value)
+// })
+
+const promessa = new Promise((resolve) => {
+    resolve('oi')
 })
